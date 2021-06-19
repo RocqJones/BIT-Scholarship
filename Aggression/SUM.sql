@@ -2,7 +2,7 @@
 SELECT SUM(standard_qty) AS Standard, SUM(gloss_qty) AS Gloss, SUM(poster_qty) AS Poster
 FROM orders
 
--- Aggregation Questions
+-- Aggregation Questions and solutions
 -- 1. Find the total amount of poster_qty paper ordered in the orders table.
 SELECT SUM(poster_qty) AS total_poster_sales FROM orders;
 
